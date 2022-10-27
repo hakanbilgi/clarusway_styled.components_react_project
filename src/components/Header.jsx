@@ -12,7 +12,7 @@ const Header = () => {
         </div>
       </Nav>
 
-      {/* <Flex>
+      {/* <Flex> */}
         <div>
           <h1>The IT Career of Your Dreams Starts Here!</h1>
           <p>
@@ -23,7 +23,7 @@ const Header = () => {
           <Button bg="#A62440">Start Your New Carier</Button>
         </div>
         <Image src="./images/hero.jpg" />
-      </Flex> */}
+      {/* </Flex> */}
     </StyledHeader>
   );
 };
