@@ -18,6 +18,9 @@ export const FooterLogo = styled.img`
     width:90%;
     display: block;
     margin: 0 auto;
-    
+
   }
+`;
+export const FooterFlex =styled.div`
+
 `;
