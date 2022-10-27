@@ -1,7 +1,9 @@
+import Button from "./components/styles/Button.styled";
+
 const App = () => {
   return (
     <>
-      <h1>APP</h1>
+    <Button/>
     </>
   );
 };
