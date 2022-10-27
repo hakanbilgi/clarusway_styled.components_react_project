@@ -1,4 +1,5 @@
 import Button from "./styles/Button.styled";
+import Flex from "./styles/Flex.styled";
 import StyledHeader, { Logo, Nav, Image } from "./styles/Header.styled";
 
 const Header = () => {
@@ -12,7 +13,7 @@ const Header = () => {
         </div>
       </Nav>
 
-      {/* <Flex> */}
+      <Flex>
         <div>
           <h1>The IT Career of Your Dreams Starts Here!</h1>
           <p>
@@ -23,7 +24,7 @@ const Header = () => {
           <Button bg="#A62440">Start Your New Carier</Button>
         </div>
         <Image src="./images/hero.jpg" />
-      {/* </Flex> */}
+      </Flex>
     </StyledHeader>
   );
 };
