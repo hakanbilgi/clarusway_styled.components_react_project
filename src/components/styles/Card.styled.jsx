@@ -21,6 +21,7 @@ const Main = styled.main`
 `;
 export const CardTitle = styled.h2`
   font-weight: bolder;
+  margin: 1rem 0.4rem;
 `;
 
 export const CardImg = styled.img`

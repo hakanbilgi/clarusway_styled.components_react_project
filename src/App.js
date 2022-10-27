@@ -10,6 +10,8 @@ const style = {
     footer: "#8A1C4A",
   },
   margins: {},
+  "max-width":"1000px",
+  width:"95vw",
   responsive: "724px",
 };
 
