@@ -16,9 +16,9 @@ const style = {
 const App = () => {
   return (
     <ThemeProvider theme={style}>
-      <GlobalStyles/>
+      <GlobalStyles />
       <Header />
-      <Card/>
+      <Card />
     </ThemeProvider>
   );
 };
