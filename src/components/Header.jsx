@@ -14,8 +14,10 @@ const Header = () => {
       </Nav>
 
       <Flex>
-        <div>
-          <h1>The IT Career of Your Dreams Starts Here!</h1>
+        <div style={{ maxWidth: "800" }}>
+          <h1 style={{margin:"1.5rem" }}>
+            The IT Career of Your Dreams Starts Here!
+          </h1>
           <p>
             Clarusway is a leading international software Bootcamp. Join a micro
             class online with other trainees and learn coding skills with a

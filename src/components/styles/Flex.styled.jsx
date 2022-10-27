@@ -5,6 +5,9 @@ const Flex = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  text-align:center;
+  margin: 2rem 3rem 2rem 2rem;
+
   @media (max-width: ${({ theme }) => theme.responsive}) {
     flex-direction: column;
     text-align: center;
