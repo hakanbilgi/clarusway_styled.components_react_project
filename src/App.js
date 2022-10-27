@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./components/styles/Global.styled";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 const style = {
   colors: {
@@ -23,6 +24,7 @@ const App = () => {
       <GlobalStyles />
       <Header />
       <Card />
+     <Footer/>
     </ThemeProvider>
   );
 };
