@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Div = styled.div`
-
+const Main = styled.main`
+ 
 `;
 
-export default Div;
+export default Main;

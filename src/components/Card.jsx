@@ -1,10 +1,25 @@
 
-
+import content from "../data"
 const Card = () => {
 
 
   return (
-    <div>Card</div>
+  <>
+  {content.map((item)=> {
+    const {id,body,image,title} = item;
+    return (
+        <div>
+            <div>
+                <img src="" alt="" />
+            </div>
+            <div>
+                <h4></h4>
+                <p></p>
+            </div>
+        </div>
+    )
+  })}
+  </>
   )
 }
 
