@@ -8,7 +8,6 @@ const Button = styled.button`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   padding: 1rem 1.2rem;
   font-size: 1.1rem;
-  margin-right: 0.5rem;
   margin: 2rem 0.5rem;
   cursor: pointer;
   &:hover {
