@@ -16,6 +16,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   @media (max-width: ${({ theme }) => theme.responsive}) {
     flex-direction: column;
+    /* flex-wrap: wrap; */
   }
 `;
 
