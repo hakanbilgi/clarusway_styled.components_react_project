@@ -1,9 +1,9 @@
-import Button from "./components/styles/Button.styled";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-    <Button/>
+    <Header/>
     </>
   );
 };
