@@ -24,7 +24,8 @@ export const FooterLogo = styled.img`
 export const FooterFlex = styled.div`
   display: flex;
   justify-content: space-between;
-  ul {
+  color: ${({ theme }) => theme.colors.header};
+   ul {
     list-style-type: none;
   }
   li {
