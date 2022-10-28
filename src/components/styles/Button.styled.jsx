@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Button = styled.button`
   background: ${({ bg }) => bg || "white"};
@@ -13,7 +13,6 @@ const Button = styled.button`
   &:hover {
     opacity: 0.9;
     transform: scale(0.97);
-    
   }
 `;
 
