@@ -31,12 +31,17 @@ export const CardImg = styled.img`
 `;
 
 export const CardTitle = styled.h2`
-  font-weight: bolder;
-  margin: 1rem 0.4rem;
+font-weight: bolder;
+margin: 1rem 0.4rem;
+
+
 `;
 
 export const Description = styled.p`
-  max-width: 500px;
-  min-width: 250px;
-  font-size: 1.1rem;
+max-width: 500px;
+min-width: 250px;
+font-size: 1.1rem;
 `;
+
+
+
