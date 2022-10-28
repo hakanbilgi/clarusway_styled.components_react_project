@@ -2,7 +2,12 @@ import React from "react";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import FooterDiv, { FooterContent, FooterFlex, FooterLogo, SocialIcons } from "./styles/Footer.styled";
+import FooterDiv, {
+  FooterContent,
+  FooterFlex,
+  FooterLogo,
+  SocialIcons,
+} from "./styles/Footer.styled";
 
 const Footer = () => {
   return (
