@@ -1,12 +1,11 @@
+import StyledHeader, { Image, Logo, Nav } from "./styles/Header.styled";
 import Button from "./styles/Button.styled";
 import Flex from "./styles/Flex.styled";
-import StyledHeader, { Logo, Nav, Image } from "./styles/Header.styled";
-
 const Header = () => {
   return (
     <StyledHeader>
       <Nav>
-        <Logo src="./images/logo.png" />
+        <Logo src="./images/logo.png" alt="logo" />
         <div>
           <Button color="#A62440">Apply Courses</Button>
           <Button bg="#A62440">Talk to Adviser</Button>
@@ -14,10 +13,8 @@ const Header = () => {
       </Nav>
 
       <Flex>
-        <div style={{ maxWidth: "800" }}>
-          <h1 style={{margin:"1.5rem" }}>
-            The IT Career of Your Dreams Starts Here!
-          </h1>
+        <div>
+          <h1> The IT Career of Your Dreams Starts Here!</h1>
           <p>
             Clarusway is a leading international software Bootcamp. Join a micro
             class online with other trainees and learn coding skills with a
@@ -25,6 +22,7 @@ const Header = () => {
           </p>
           <Button bg="#A62440">Start Your New Carier</Button>
         </div>
+
         <Image src="./images/hero.jpg" />
       </Flex>
     </StyledHeader>
