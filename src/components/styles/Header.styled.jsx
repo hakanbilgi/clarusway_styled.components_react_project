@@ -6,8 +6,8 @@ const StyledHeader = styled.header`
   margin: auto;
   padding: 4rem 0;
 `;
-
 export default StyledHeader;
+
 
 export const Logo = styled.img`
   width: 300px;
