@@ -1,20 +1,16 @@
 import React from "react";
-import FooterDiv, {
-  FooterContent,
-  FooterFlex,
-  FooterLogo,
-  SocialIcons,
-} from "./styles/Footer.styled";
-import { FaTwitterSquare, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import FooterDiv, { FooterContent, FooterFlex, FooterLogo, SocialIcons } from "./styles/Footer.styled";
 
 const Footer = () => {
   return (
     <FooterDiv>
       <FooterContent>
         <div>
-          <FooterLogo src="./images/logo_white.png" />
+          <FooterLogo src="./images/logo_white.png" alt="" />
         </div>
-
         <FooterFlex>
           <ul>
             <li>1775 Tysons Blvd. 5th Floor. Tysons, VA 22102</li>
