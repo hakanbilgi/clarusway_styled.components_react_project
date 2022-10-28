@@ -5,7 +5,6 @@ const FooterDiv = styled.footer`
 `;
 export default FooterDiv;
 
-
 export const FooterContent = styled.div`
   max-width: ${({ theme }) => theme["max-width"]};
   margin: 0rem auto;
@@ -25,7 +24,7 @@ export const FooterFlex = styled.div`
   display: flex;
   justify-content: space-between;
   color: ${({ theme }) => theme.colors.header};
-   ul {
+  ul {
     list-style-type: none;
   }
   li {
