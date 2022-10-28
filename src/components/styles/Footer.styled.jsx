@@ -6,6 +6,7 @@ const FooterDiv = styled.footer`
 
 export default FooterDiv;
 
+
 export const FooterContent = styled.div`
   max-width: ${({ theme }) => theme["max-width"]};
   margin: 0rem auto;
